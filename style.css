@@ -1,0 +1,31 @@
+        h1{
+            color: orange;
+            font-family: montserrat, sans-serif;
+            font-size: 65px;
+            text-align: center;
+        }
+        body{
+            background-image: url(https://images.pexels.com/photos/3062705/pexels-photo-3062705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+            font-size: 16px;
+        }
+        ul{
+            background-color: rgb(106, 0, 255);
+        }
+        .p-ul{
+            color: rgb(232, 232, 232);
+            line-height: 40px;
+        }
+        p{
+            font-size: 3em;
+            font-weight: 600;
+            text-align: center;
+        }
+        #amarelo{
+            background-color: rgb(196, 174, 51);
+        }
+        #vermelho{
+            background-color: red;
+        }
+        #marrom{
+            background-color: rgb(84, 36, 0);
+        }
