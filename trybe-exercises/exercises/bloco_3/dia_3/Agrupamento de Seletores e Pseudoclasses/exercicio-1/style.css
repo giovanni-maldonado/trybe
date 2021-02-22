@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(149, 1, 255, 0.481);
+}
+h1, p {
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+ol, ul{
+    display: inline-block; text-align: left;
+    list-style: none;
+}
+li:hover{
+    background-color: aqua;
+}
+li:active{
+    color: rgb(255, 255, 255);
+}
