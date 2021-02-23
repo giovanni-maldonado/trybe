@@ -1,0 +1,38 @@
+body{
+    background-image: url("https://images.pexels.com/photos/2170473/pexels-photo-2170473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat:initial;
+    background-size: auto;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+header{
+    background-color: rgb(0, 179, 250);
+    pading: 400px;
+}
+
+article{
+    background-color: rgba(46, 46, 46, 0.616);
+    border-radius: 10px;
+    color: rgb(253, 253, 253);
+}
+
+.stomatopoda-img{
+    width: 500px;
+    border-radius: 60px;
+}
+
+
+ul{
+    text-align: center; 
+    display: inline-block; text-align: left;   
+}
+
+aside {
+    border-radius: 20px;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    background-color: lightgray;
+  }
