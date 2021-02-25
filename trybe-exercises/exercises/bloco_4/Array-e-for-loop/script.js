@@ -84,3 +84,10 @@ console.log(menorValor);
 for (index = 1; index <= 25; index++) {
     console.log(index);
 } 
+
+//Exercicio 9
+
+for (i = 1; i <= 25; i++) {
+    console.log(i)	  console.log(`Número: ${i}`)
+    console.log(`Divisão: ${i/2}`) // 9
+} 
