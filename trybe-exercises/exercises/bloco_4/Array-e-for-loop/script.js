@@ -51,3 +51,19 @@ for (let index of numbers) {
   }
 }
 console.log(maiorNumero);
+
+//Exercicio 6 
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let contImpares = 0;
+
+for (let index of numbers){
+    if (index % 2 == 1){
+        contImpares++
+    }
+}
+if(contImpares > 0){
+    console.log('Tem ',contImpares, ' numeros impares' )
+}else{
+    console.log('Não tem numeros impares')
+}
