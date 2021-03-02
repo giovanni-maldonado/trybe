@@ -11,3 +11,38 @@ function verificaPalindrome (word){
 }
 console.log(verificaPalindrome('arara'));
 console.log(verificaPalindrome('desenvolvimento'));
+
+//2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+
+function indiceMaiorValor() {
+    let maior = inteiros[0];
+    let indice = 0;
+    for (let index = 1; index < inteiros.length; index++) {
+        if (inteiros[index] > maior) {
+            maior = inteiros[index];
+            indice = index;
+        }
+    }
+    return indice;
+}
+
+let inteiros = [2, 3, 6, 7, 10, 1];
+console.log(indiceMaiorValor(inteiros));
+
+//3 - Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+
+
+function indiceMenorValor() {
+    let menor = inteiros[0];
+    let indice = 0;
+    for (let index = 1; index < inteiros.length; index++) {
+        if (inteiros[index] < menor) {
+            menor = inteiros[index];
+            indice = index;
+        }
+    }
+    return indice;
+}
+
+let inteiros = [2, 4, 6, 7, 10, 0, -3];
+console.log(indiceMenorValor(inteiros));
