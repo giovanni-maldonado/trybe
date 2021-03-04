@@ -107,6 +107,14 @@
         elementEx7.setAttribute('class', 'small-image');
         ex7.appendChild(elementEx7);
 
+        //Ex - 8 
+
+        let lista = rightContent.appendChild(document.createElement('ul'));
+        for(let index = 1; index <= 10; index += 1) {
+          let lista = document.createElement('li');
+          lista.innerText = index;
+          lista.appendChild(lista);
+        }
     </script>
   </body>
 </html>
