@@ -45,3 +45,14 @@ function createDaysOfTheWeek() {
   };
   createDaysOfTheMonth();
 
+//ex - 2
+  function holidayButton(buttonName){
+  let buttonContainer = document.querySelector('.buttons-container');
+  let newBtn = document.createElement('button');
+  let newBtnID = 'btn-holiday';
+  newBtn.innerHTML = buttonName;
+  newBtn.id = newBtnID;
+  buttonContainer.appendChild(newBtn)
+  }
+  
+  holidayButton('Feriados')
