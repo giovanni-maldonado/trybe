@@ -60,3 +60,6 @@ function maiorPalavra(palavras) {
   }
   
   console.log(maiorPalavra(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+
+//5 - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+
