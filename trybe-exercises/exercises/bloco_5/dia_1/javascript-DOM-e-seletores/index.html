@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p class = 'estilo' id="paragraph">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p class='estilo' id="second-paragraph">Segundo parágrafo!</p>
+    <script>
+      var paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "purple";
+      document.getElementById('page-title').innerText = 'Star Wars';
+      document.getElementById('subtitle').innerText = 'Uma breve sinopse de Star wars:'
+      document.getElementById('second-paragraph').innerText = 'Star wars é uma história de fantasia que engloba elementos batidos na literatura e no cinema, como romance, drama, humor e luta entre bem e mal. O centro da trama é uma disputa política entre um império tirano e ditatorial e um grupo libertário.'
+      document.getElementsByClassName('estilo')[0, 1].style.color = 'grey'
+      document.getElementsByTagName('h4')[0].style.color = 'pink'
+    </script>
+  </body>
+</html>
